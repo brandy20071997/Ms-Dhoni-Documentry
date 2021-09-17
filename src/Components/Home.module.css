@@ -1,0 +1,184 @@
+.spacing{
+    padding: 1vw;
+}
+.home{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none !important;
+    color: white;
+    
+}
+
+.btnstylinhcard{
+    background-color: #1C1919;
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    /* color: white !important; */
+}
+.seemoreme{
+    color: white !important;
+}
+.seemoreme:hover{
+    color: black !important;
+}
+.btnstylinhcard:hover{
+    background-color: white;
+    border: 1px solid #1C1919;
+    color: #1C1919 !important;
+}
+.cardStyling{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.6rem;
+    color: #1C1919 !important;
+}
+.youtbeDesign{
+    background-color: #1CABD7;
+    color: white;
+    padding: 2vw 3vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.cardStylingTExt{
+    font-size: 1.3vw;
+    font-weight: 600;
+    
+}
+.cardbordering{
+    border-radius: 0.6rem 0.6rem 0rem 0rem;
+}
+.heroTExt{
+    position: absolute;
+    top: 18vw;
+    left: 12vw;
+    color: #081127;
+}
+.heroTExt2{
+    position: absolute;
+    top: 25vw;
+    left: 12vw;
+    color: #081127;
+}
+.heroTExt3{
+    position: absolute;
+    top: 11vw;
+    left: 12vw;
+    color: #081127;
+}
+.mainTExtstyle{
+    font-size: 3vw;
+    line-height: 1;
+    color: #081127;
+}
+
+.mainTExtstylemobile{
+    display: none;
+}
+.seemore{
+    text-decoration: none !important;
+}
+.forminputdesign{
+    border-radius: 1rem;
+    padding: 1vw;
+    border: 1px solid grey ;
+}
+.buttondesign{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    padding: 1vw;
+    margin-top: 1vw;
+   
+}
+.borderstyling{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 6vw 5vw;
+    border-radius: 1rem;
+    background-color: white;
+
+   
+}
+.bgImage2{
+    background-image: url(../assets/team.jpg);
+    
+    background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: auto;
+
+}
+.textdecoratingform{
+    margin: 25vw 10vw 3vw 10vw;
+    color: #081127;
+}
+.bgImg{
+display:none;
+}
+@media only screen and (max-width:765px){
+    .mainTExtstylemobile{
+        display: block;
+    }
+    .bgImg{
+        display: block;
+    }
+    .borderstyling{
+        padding: 15vw 5vw;
+    }
+    .textdecoratingform{
+        margin: 8vw;
+    color: #081127;
+    text-align: center;
+    }
+    .cardStylingTExt{
+        font-size: 5vw !important;
+    }
+    .textDesktop{
+        display: none;
+    }
+    .textMobile{
+        text-align: center !important;
+    }
+    .textSeeMore{
+        font-size: 3vw;
+        text-align: center !important;
+    }
+    .carouselmobile{
+        display: none;
+    }
+    .bgImg{
+        background-image: url("../assets/mobile.jpg");
+        background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+height: 90vh;
+    }
+    .mobiledecor{
+        padding: 12vw 3vw !important;
+    }
+    .heroTExtmobile{
+        padding:  140vw 0vw;
+        text-align: center;
+        color: white !important;
+    }
+    .mainTExtstyle{
+        font-size: 8vw;
+        line-height: 1;
+        color: white;
+        background: black;
+        padding: 3vw;
+        opacity: 0.8;
+    }
+    .buttondesign{
+        padding: 3vw !important;
+    }
+    .forminputdesign{
+        padding: 3vw !important;
+    }
+   
+}

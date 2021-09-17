@@ -1,0 +1,25 @@
+.NavbarStyling{
+    padding: 0.7vw;
+    background-color: #1c1919;
+    color: white !important;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.navtext{
+    color: white !important;
+}
+.navmenu{
+    color: white !important;
+    font-size: 1.2vw !important;
+    margin-right: 2vw;
+}
+@media only screen and (max-width:765px){
+    .navmenu{
+        font-size: 4.2vw !important;
+    }
+    .headingmob{
+        padding: 3vw 6vw;
+    }
+}

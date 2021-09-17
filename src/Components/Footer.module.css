@@ -1,0 +1,43 @@
+.footerdesign{
+    background-color: black;
+    color: white;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    
+
+}
+.inputDesigning{
+    border-radius: 2vw;
+    background-color: #1F1F1F;
+    border: none;
+    
+}
+.shrStyling{
+    margin-top: 8vw;
+    border-top: 3px solid grey;
+    color: grey;
+    margin-bottom: 2vw;
+}
+.captain{
+    font-size: 13px;
+}
+
+@media only screen and (max-width:765px){
+    .footermobiletext{
+        font-size: 9vw !important;
+    }
+    .mobilework{
+        margin-top: 8vw;
+    }
+    .footername{
+        display: none;
+    }
+    .mobileworkcentering{
+        text-align: center;
+        
+    }
+    .marginend{
+        margin-top: 6vw;
+    }
+}

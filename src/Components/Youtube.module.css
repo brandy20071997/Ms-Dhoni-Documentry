@@ -1,0 +1,23 @@
+.video_responsive {
+    overflow: hidden;
+    padding-bottom: 30.25%;
+    position: relative;
+    height: 0;
+    border-radius: 1rem 1rem 0rem 0rem;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .video_responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  @media only screen and (max-width:765px){
+      .video_responsive{
+          padding-bottom: 75.25%;
+          /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      }
+  }
